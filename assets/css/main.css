@@ -5,39 +5,6 @@
 
 -----------------------------------------------------------------------------------
 
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS
-	02. variables
-    03. mixins
-    04. common
-    05. overlay
-    06. header
-    07. breadcrumb 
-    08. mobile-menu
-    09. search
-    09. custom-animation
-    10. btn
-    11. custom-container
-    12. slider
-    13. what-do
-    14. about
-    15. fact
-    16. services
-    17. contact
-    18. cta
-    19. blog
-    20. testimonial
-    21. chose-us
-    22. faq
-    23. video
-    24. team
-    25. plan
-    26. case
-    27. dark-mode
-    28. footer
-
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -231,15 +198,44 @@ label {
 }
 
 /*--
-    - Input Placeholder
+    - Countdown
 -----------------------------------------*/
-*::-moz-placeholder {
+
+#countdown li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0.5em;
+    line-height: 2.4em;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 0.1em;
+}
+
+#countdown li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+#countdown .emoji {
+  display: none;
+  padding: 1rem;
+}
+
+#countdown .emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+#countdown *::-moz-placeholder {
   color: black;
   font-size: 14px;
   opacity: 1;
 }
 
-*::placeholder {
+#countdown *::placeholder {
   color: black;
   font-size: 14px;
   opacity: 1;
